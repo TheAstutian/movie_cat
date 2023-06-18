@@ -13,7 +13,7 @@ const MovieThumb = (props)=>{
 			<img src={props.image} alt ="moviethumb" />
 		}
 		
-		 
+		  
 		</div>
 		)
 }

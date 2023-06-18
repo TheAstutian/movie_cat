@@ -94,7 +94,7 @@ class Home extends Component {
 									movieID={element.id}
 								movieName={element.original_title}
 								/>
-					})}
+					})} 
 				
 				</FourColGrid>
 				{this.state.loading ? <Spinner /> : null }
