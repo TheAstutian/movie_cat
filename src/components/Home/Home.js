@@ -22,7 +22,6 @@ class Home extends Component {
 
 
 	componentDidMount(){
-		console.log("test env var is" + process.env.REACT_APP_TEST)
 		this.setState({loading:true});
 		const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
 		this.fetchItems(endpoint);
